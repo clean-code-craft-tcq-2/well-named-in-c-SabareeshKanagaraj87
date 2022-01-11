@@ -5,7 +5,7 @@ void printReferenceManual()
 {
   int i ;
   int numberOfColorCode = numberOfMajorColors * numberOfMinorColors;
-  printf("**** Reference Manual****");
+  printf("***** Reference Manual *****\n");
   for (i=1;i<=numberOfColorCode;i++)
   {
     ColorPair colorPair = GetColorFromPairNumber(i);
