@@ -1,4 +1,5 @@
-#include "colorCode.h"
+#include "colorPair.h"
+#include 'GetPairNumberFromColor.h"
 
 void testPairToNumber(
     enum MajorColor major,
