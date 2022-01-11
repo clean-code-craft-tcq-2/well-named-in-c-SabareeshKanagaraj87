@@ -1,4 +1,3 @@
-#include "colorPair.h"
 #include 'GetPairNumberFromColor.h"
 
 void testPairToNumber(
