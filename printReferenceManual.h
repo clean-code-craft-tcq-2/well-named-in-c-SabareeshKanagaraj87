@@ -6,7 +6,7 @@ void printReferenceManual()
   
   //for (int i=0;i<5;++i)
   //{
-    ColorPair colorPair = GetColorFromPairNumber(i);
+    ColorPair colorPair = GetColorFromPairNumber(1);
     char colorPairNames[MAX_COLORPAIR_NAME_CHARS];
     ColorPairToString(&colorPair, colorPairNames);
     printf("Got pair %s\n", colorPairNames);
