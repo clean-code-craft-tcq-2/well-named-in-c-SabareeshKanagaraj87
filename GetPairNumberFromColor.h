@@ -1,4 +1,4 @@
-#include "colorCode.h"
+#include "colorPair.h"
 
 int GetPairNumberFromColor(const ColorPair* colorPair) {
     return colorPair->majorColor * numberOfMinorColors +
