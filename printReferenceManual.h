@@ -1,5 +1,5 @@
-#include "GetColorFromPairNumber.h"
-#include "ColorPairToString.h"
+//#include "GetColorFromPairNumber.h"
+//#include "ColorPairToString.h"
 
 void printReferenceManual()
 {
