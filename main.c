@@ -2,6 +2,7 @@
 #include "ColorDefinition.h"
 #include "testNumberToPair.h"
 #include "testPairToNumber.h"
+#include "printReferenceManual.h"
 
 int main() {
     testNumberToPair(4, WHITE, BROWN);
@@ -9,6 +10,8 @@ int main() {
 
     testPairToNumber(BLACK, ORANGE, 12);
     testPairToNumber(VIOLET, SLATE, 25);
+    
+    printReferenceManual();
 
     return 0;
 }
